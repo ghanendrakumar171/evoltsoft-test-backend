@@ -1,0 +1,13 @@
+runtime: nodejs20
+instance_class: F1
+
+env_variables:
+  PG_USER: postgres
+  PG_PASSWORD: Ghannu@1207
+  PG_DATABASE: postgres
+  PG_HOST: /cloudsql/evolesoft-test-462207:asia-south1:evolesoft-test
+  PG_PORT: 5432
+  PORT: 8080
+
+beta_settings:
+  cloud_sql_instances: evolesoft-test-462207:asia-south1:evolesoft-test

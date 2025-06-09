@@ -1,0 +1,12 @@
+node_modules/
+google-cloud-sdk/
+.git/
+tests/
+build/
+dist/
+.env
+*.log
+rm -rf node_modules
+rm -rf .git
+rm -rf tests
+rm -rf build dist
